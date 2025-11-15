@@ -45,7 +45,7 @@ The shared sensor data is collected from the Cross-Harbour Tunnel at night, whic
 </p>
 
 ## Acknowledgements
-We acknowledge the help from Jingming Zhang. We are grateful for the generous donation of the deployed fiber links by The Management Team of HKCOLO/Telehouse.
+We acknowledge the help from Jingming Zhang and Jipeng Liu. We are grateful for the generous donation of the deployed fiber links by The Management Team of HKCOLO/Telehouse.
 
 ## License
 For any technical issues, please contact Yinghuan Li via email ying-huan.li@connect.polyu.hk

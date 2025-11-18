@@ -51,9 +51,9 @@ The shared sensor data is collected from a road which is a 1.86-kilometer two-wa
 In urban traffic scenarios, there are various types of vehicles. Vehicles with greater mass generate vibration signals of larger amplitude, which can easily mask the signals of smaller vehicles. As shown in **Fig. 3 (a)**, the distinct vehicle trajectories collected are caused by the double-decker buses, while the signals of the middle small vehicles are masked. To clear the weak vehicle signals, we proposed the **block normalization algorithm**. The $M \times N$ input image is partitioned into non-overlapping rectangular blocks of size $k \times l$, indexed by $i = \lfloor M/k \rfloor$ along the rows and $j = \lfloor N/l \rfloor$ along the columns. Each block is normalized independently as:
 
 $$
-B_{i,j}^"(m,n) = \frac{B_{i,j}^’(m,n) - \min(B_{i,j}^’)}{\max(B_{i,j}^’) - \min(B_{i,j}^’) + \epsilon} \tag{1}
+B_{i,j}^{"}(m,n) = \frac{B_{i,j}^{'}(m,n) - \min(B_{i,j}^{'})}{\max(B_{i,j}^{'}) - \min(B_{i,j}^{'}) + \epsilon} \tag{1}
 $$
-where $B_{i,j}^’$ is the absolute value expression of each block $B_{i,j}$, $m \in [0,k-1]$ and $n \in [0,l-1]$ denote the local coordinates within the block, $\epsilon$ is a small constant for preventing division by zero.
+where $B_{i,j}^{’}$ is the absolute value expression of each block $B_{i,j}$, $m \in [0,k-1]$ and $n \in [0,l-1]$ denote the local coordinates within the block, $\epsilon$ is a small constant for preventing division by zero.
 
 Given that vehicle strain rate signals persist for approximately 2 seconds, the block size is reduced to [1.5s 12m] and the original signal is block-normalized as shown in Fig. 3 (b), thereby avoiding the coverage of high-amplitude signals and enables the visibility of weak vehicle trajectories.
 

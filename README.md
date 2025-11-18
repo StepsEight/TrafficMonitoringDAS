@@ -6,9 +6,9 @@ This repository is the usage page of the TrafficMonitoringDAS dataset. Based on 
 Key words: **Distributed Acoustic Sensing**, **Traffic Monitoring**, **Busy Traffic Environmnet**
 
 <p align="center">
-  <img width="712pix" src="images/The heavy traffic in the experimental site.png">
+  <img width="712pix" src="images/The heavy traffic of the experimental site.png">
   <figcaption align="center">
-    <strong>Fig. 1 </strong>The heavy traffic in the experimental site.
+    <strong>Fig. 1 </strong>The heavy traffic of the experimental site.
   </figcaption>
 </p>
 

@@ -53,6 +53,7 @@ In urban traffic scenarios, there are various types of vehicles. Vehicles with g
 $$
 B_{i,j}^{"}(m,n) = \frac{B_{i,j}^{'}(m,n) - \min(B_{i,j}^{'})}{\max(B_{i,j}^{'}) - \min(B_{i,j}^{'}) + \epsilon} \tag{1}
 $$
+
 where $B_{i,j}^{’}$ is the absolute value expression of each block $B_{i,j}$, $m \in [0,k-1]$ and $n \in [0,l-1]$ denote the local coordinates within the block, $\epsilon$ is a small constant for preventing division by zero.
 
 Given that vehicle strain rate signals persist for approximately 2 seconds, the block size is reduced to [1.5s 12m] and the original signal is block-normalized as shown in Fig. 3 (b), thereby avoiding the coverage of high-amplitude signals and enables the visibility of weak vehicle trajectories.

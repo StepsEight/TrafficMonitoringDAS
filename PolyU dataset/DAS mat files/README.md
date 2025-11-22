@@ -1,2 +1,2 @@
 Because GitHub has a limit of 100MB for file upload size, in order to facilitate the download of the files, we have placed them on Google Drive. The DAS mat files can be quickly downloaded from the link: https://drive.google.com/drive/folders/1AABKO_ugMzKqAa1gOQZSpwqreekb-I-_?usp=sharing
-The openSourceDataForTrafficMonitoring.m can read mat files into your workspace.
+The openSourceDataForTrafficMonitoring.m in the Quick Start folder can read mat files into your workspace. To facilitate the researchers conducting the vehicle detection study, at the beginning of the provided data, a double-decker bus drove out. This corresponds to the highlighted trajectory in the sensor data and can serve as the starting point for vehicle detection verification.

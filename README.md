@@ -20,7 +20,7 @@ Key words: **Distributed Acoustic Sensing**, **Traffic Monitoring**, **Busy Traf
 
 ## 🚀 Overview
 - [Objective](#-objective-of-the-dataset)
-- [The traffic dataset in Hong Kong from PolyU](#-the-dataset-of-the-cross-harbour-tunnel-from-polyu)
+- [The traffic dataset in Hong Kong from PolyU](#-the-traffic-dataset-in-hong-kong-from-polyu)
 - [Acknowledgements](#-acknowledgements)
 - [Copyright](#%EF%B8%8F-copyright)
 
@@ -70,6 +70,8 @@ In order to build your algorithm more quickly on this dataset, we have provided 
 
 ## 🙌 Acknowledgements
 We acknowledge the help from Jingming Zhang and Jipeng Liu.
+If you use the open-source dataset from PolyU, please cite the following paper:
+> Y. Li, J. Zhang, Y. Yan and A. P. T. Lau, “Traffic Monitoring using Optical Fiber Distributed Acoustic Sensing for Metropolitan Environments”, Journal of Lightwave Technology, pp. 1–17, 2025, doi: 10.1109/jlt.2025.3642924.
 
 ## ©️ Copyright
 This open-source dataset is owned and managed by **the Photonics Research Institute of The Hong Kong Polytechnic University**. These data are exclusively for academic research and non-commercial use. For any commercial or technical issues, please contact Yinghuan Li via email ying-huan.li@connect.polyu.hk
